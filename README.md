@@ -17,7 +17,7 @@
 
 ## Menu
 
-- [Demo](https://demo.dawid-napora.pl/city-bikes) <!-- TODO: Demo -->
+- [Go to the app (TODO)](https://demo.dawid-napora.pl/city-bikes) <!-- TODO: Demo -->
 - [Project setup](#project-setup)
 
 ## Project setup
