@@ -1,22 +1,40 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
   const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Index',
+    components: {
+      default: () => import('@/views/Home.vue'),
+      sidebar: () => import('@/components/NavigationDrawerNetworks.vue')
+    }
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/search/:query',
+    name: 'Search',
+    components: {
+      default: () => import('@/views/Home.vue'),
+      sidebar: () => import('@/components/NavigationDrawerSearch.vue')
+    }
+  },
+  {
+    path: '/network/:network',
+    name: 'Network',
+    components: {
+      default: () => import('@/views/Home.vue'),
+      sidebar: () => import('@/components/NavigationDrawerStations.vue')
+    }
+  },
+  {
+    path: '/network/:network/station/:station',
+    name: 'Station',
+    components: {
+      default: () => import('@/views/Home.vue'),
+      sidebar: () => import('@/components/NavigationDrawerStationSingle.vue')
+    }
   }
 ]
 
