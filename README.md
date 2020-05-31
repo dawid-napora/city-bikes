@@ -2,6 +2,18 @@
 <p align="center">Web application with map of all city bikes around the world</p>
 <p align="center">🚴‍♀️🌍🌎🌏🚴‍♂️</p>
 
+---
+
+<p align="center">
+  <a href="https://github.com/dawnap/city-bikes/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/dawnap/city-bikes?style=for-the-badge"></a>
+  <a href="https://github.com/dawnap/city-bikes/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/dawnap/city-bikes?style=for-the-badge"></a>
+  <a href="https://github.com/dawnap/city-bikes/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/dawnap/city-bikes?style=for-the-badge"></a>
+  <a href="https://github.com/dawnap/city-bikes/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/dawnap/city-bikes?style=for-the-badge"></a>
+  <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fdawnap%2Fcity-bikes"><img alt="Twitter" src="https://img.shields.io/twitter/url?color=%231DA1F2&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fdawnap%2Fcity-bikes"></a>
+</p>
+
+---
+
 ## Menu
 
 - [Demo](https://demo.dawid-napora.pl/city-bikes) <!-- TODO: Demo -->
