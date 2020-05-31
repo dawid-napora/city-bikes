@@ -1,5 +1,11 @@
-# city-bikes
-Web application with map of all city bikes around the world
+<h1 align="center"> CityBikes </h1>
+<p align="center">Web application with map of all city bikes around the world</p>
+<p align="center">🚴‍♀️🌍🌎🌏🚴‍♂️</p>
+
+## Menu
+
+- [Demo](https://demo.dawid-napora.pl/city-bikes) <!-- TODO: Demo -->
+- [Project setup](#project-setup)
 
 ## Project setup
 ```
